@@ -118,8 +118,8 @@
             <div class="product-name">
                 <label>
                     <input type="checkbox" name="products" value="Xịt ngăn mùi Pearl&beauty">
-Xịt ngăn mùi Pearl&beauty
-</label>
+                    Xịt ngăn mùi Pearl&beauty
+                </label>
             </div>
         </div>
         <div class="product">
