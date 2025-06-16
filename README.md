@@ -146,7 +146,6 @@
                     <input type="checkbox" name="products" value="Nước tẩy trang ngừa mụn">
                     Nước tẩy trang ngừa mụn
                 </label>
-            </div>
         </div>
         <div class="product">
             <img src="https://img.nivea.com/-/media/miscellaneous/media-center-items/6/a/1/238140-web_1010x1180_transparent_png.webp?mw=518&hash=1CC547DF9D17FF401F67F14FC580E31E" alt="Sản phẩm 8">
@@ -232,8 +231,6 @@
         <label>Quà Nivea bạn muốn nhận:
             <input type="text" name="text" required>
         <input type="submit" value="Gửi thông tin">
-    </form>
-<script>
     const checkboxes = document.querySelectorAll('input[type="checkbox"][name="products"]');
     const maxSelections = 5;
 
