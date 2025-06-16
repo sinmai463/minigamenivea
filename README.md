@@ -157,7 +157,7 @@
                 </label>
             </div>
         </div>
-                <div class="product">
+        <div class="product">
             <img src="https://www.lottemart.vn/media/catalog/product/cache/0x0/8/8/8850029029917.jpg.webp" alt="Sản phẩm 9">
             <div class="product-name">
                 <label>
@@ -246,6 +246,3 @@
             }
         });
     });
-</script>
-</body>
-</html>
