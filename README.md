@@ -231,18 +231,6 @@
         <label>Quà Nivea bạn muốn nhận:
             <input type="text" name="text" required>
         <input type="submit" value="Gửi thông tin">
-    const checkboxes = document.querySelectorAll('input[type="checkbox"][name="products"]');
-    const maxSelections = 5;
-
-    checkboxes.forEach(cb => {
-        cb.addEventListener('change', () => {
-            const checkedCount = document.querySelectorAll('input[type="checkbox"][name="products"]:checked').length;
-            if (checkedCount > maxSelections) {
-                cb.checked = false;
-                alert(`Bạn chỉ được chọn tối đa ${maxSelections} sản phẩm yêu thích!`);
-            }
-        });
-    });
 <script>
   const form = document.querySelector("form");
   form.addEventListener("submit", async function (e) {
