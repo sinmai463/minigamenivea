@@ -231,10 +231,9 @@
         <label>Quà Nivea bạn muốn nhận:
             <input type="text" name="text" required>
         <input type="submit" value="Gửi thông tin">
-<script>
+</form>
     const checkboxes = document.querySelectorAll('input[type="checkbox"][name="products"]');
     const maxSelections = 5;
-
     checkboxes.forEach(cb => {
         cb.addEventListener('change', () => {
             const checkedCount = document.querySelectorAll('input[type="checkbox"][name="products"]:checked').length;
@@ -245,3 +244,5 @@
         });
     });
 </script>
+</body>
+</html>
